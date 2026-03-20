@@ -1,0 +1,20 @@
+{
+  "name": "@millu/shared",
+  "version": "2.0.0",
+  "description": "Общие типы и константы для клиента и сервера игры Миллионер",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
