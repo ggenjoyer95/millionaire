@@ -1,0 +1,21 @@
+{
+  "name": "millionaire",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Онлайн-адаптация телеигры «Кто хочет стать миллионером?»",
+  "scripts": {
+    "dev:server": "pnpm --filter server dev",
+    "dev:client": "pnpm --filter client dev",
+    "dev": "pnpm --parallel --filter server --filter client dev",
+    "build": "pnpm --filter @millu/shared build && pnpm --filter server build && pnpm --filter client build",
+    "typecheck": "pnpm --filter server typecheck && pnpm --filter client typecheck",
+    "parse-legacy": "tsx scripts/parse-questions.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "iconv-lite": "^0.7.2",
+    "@types/node": "^22.10.0"
+  },
+  "packageManager": "pnpm@9.15.0"
+}
