@@ -1,0 +1,341 @@
+[
+  {
+    "id": "c74e7f73-ceea-4b6d-825d-9663c0991aba",
+    "text": "Что бьют на счастье?",
+    "answers": [
+      {
+        "text": "Посуду",
+        "isCorrect": true
+      },
+      {
+        "text": "Грушу",
+        "isCorrect": false
+      },
+      {
+        "text": "Ковры",
+        "isCorrect": false
+      },
+      {
+        "text": "Морду",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "012e0ef0-c348-4ed1-8998-45e31acd0424",
+    "text": "Как заканчивается название известного фильма: \"Иван Васильевич меняет...\"?",
+    "answers": [
+      {
+        "text": "Работу",
+        "isCorrect": false
+      },
+      {
+        "text": "Профессию",
+        "isCorrect": true
+      },
+      {
+        "text": "Прописку",
+        "isCorrect": false
+      },
+      {
+        "text": "Валюту",
+        "isCorrect": false
+      }
+    ],
+    "comment": "\"Иван Васильевич меняет профессию\""
+  },
+  {
+    "id": "1bdbd2d1-c365-4648-bb5d-82ff9bc94476",
+    "text": "Что такое \"вКонтакте\"?",
+    "answers": [
+      {
+        "text": "Брачное агентство",
+        "isCorrect": false
+      },
+      {
+        "text": "Социальная сеть",
+        "isCorrect": true
+      },
+      {
+        "text": "Уфологическое общество",
+        "isCorrect": false
+      },
+      {
+        "text": "Название презервативов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "a859934a-e2dd-4c72-8e01-4443ea2f8f64",
+    "text": "В честь какого штата США назван один из главных вредителей садоводов?",
+    "answers": [
+      {
+        "text": "Аризона",
+        "isCorrect": false
+      },
+      {
+        "text": "Нью-Джерси",
+        "isCorrect": false
+      },
+      {
+        "text": "Нью-Мексико",
+        "isCorrect": false
+      },
+      {
+        "text": "Колорадо",
+        "isCorrect": true
+      }
+    ],
+    "comment": "Колорадский жук"
+  },
+  {
+    "id": "e6f1be36-c091-4683-b716-b41445a70486",
+    "text": "Каким словом называют не только канцелярскую принадлежность, но и алкогольный напиток?",
+    "answers": [
+      {
+        "text": "Скотч",
+        "isCorrect": true
+      },
+      {
+        "text": "Ластик",
+        "isCorrect": false
+      },
+      {
+        "text": "Фломастер",
+        "isCorrect": false
+      },
+      {
+        "text": "Клей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "1f305b09-868c-45a7-8464-aa98169be511",
+    "text": "Сколько всего клеток занимают корабли одного игрока при игре в традиционный морской бой?",
+    "answers": [
+      {
+        "text": "18",
+        "isCorrect": false
+      },
+      {
+        "text": "20",
+        "isCorrect": true
+      },
+      {
+        "text": "22",
+        "isCorrect": false
+      },
+      {
+        "text": "24",
+        "isCorrect": false
+      }
+    ],
+    "comment": "1х4кл, 2х3кл, 3х2кл, 4х1кл"
+  },
+  {
+    "id": "b3517d56-ee22-4e73-9f20-b46bd7c96027",
+    "text": "Сколько всего фильмов о Гарри Поттере вышло на экраны кинотеатров?",
+    "answers": [
+      {
+        "text": "6",
+        "isCorrect": false
+      },
+      {
+        "text": "7",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "isCorrect": true
+      },
+      {
+        "text": "9",
+        "isCorrect": false
+      }
+    ],
+    "comment": "Всего в серии романов 7 книг, но экранизация последней была разделена на две части, итого - 8 фильмов"
+  },
+  {
+    "id": "eaa0c293-9995-47db-b535-ed33ad4dd140",
+    "text": "Где находится самый большой по количеству станций метрополитен в мире?",
+    "answers": [
+      {
+        "text": "В Москве",
+        "isCorrect": false
+      },
+      {
+        "text": "В Нью-Йорке",
+        "isCorrect": true
+      },
+      {
+        "text": "В Лондоне",
+        "isCorrect": false
+      },
+      {
+        "text": "В Шанхае",
+        "isCorrect": false
+      }
+    ],
+    "comment": "Москва - 185 станций, 305.7 км (второй по интенсивности использования после Токио); Нью-Йорк - 468 станций, 337 км; Лондон - 270 станций, 408 км (старейший в мире); Шанхай - 277 станций, 434 км (самый большой по протяженности линий)"
+  },
+  {
+    "id": "458f91ae-21a9-4049-bb64-76b8a4207d7b",
+    "text": "В какой стране родилась певица Мадонна?",
+    "answers": [
+      {
+        "text": "США",
+        "isCorrect": true
+      },
+      {
+        "text": "Норвегия",
+        "isCorrect": false
+      },
+      {
+        "text": "Канада",
+        "isCorrect": false
+      },
+      {
+        "text": "Великобритания",
+        "isCorrect": false
+      }
+    ],
+    "comment": "род. 16 августа 1958, Бэй-Сити, Мичиган, США"
+  },
+  {
+    "id": "2bd31f81-51a5-4dd7-a51b-02e7ab849afe",
+    "text": "Какое отчество у кандидата в президенты России Михаила Прохорова?",
+    "answers": [
+      {
+        "text": "Сергеевич",
+        "isCorrect": false
+      },
+      {
+        "text": "Андреевич",
+        "isCorrect": false
+      },
+      {
+        "text": "Дмитриевич",
+        "isCorrect": true
+      },
+      {
+        "text": "Георгиевич",
+        "isCorrect": false
+      }
+    ],
+    "comment": "Михаил Дмитриевич Прохоров"
+  },
+  {
+    "id": "3981c3df-33fb-42af-a8a2-ad5a86610cf8",
+    "text": "Поток воздуха с какой минимальной скоростью, согласно российскому ГОСТу, считается ветром?",
+    "answers": [
+      {
+        "text": "0.2 м/с",
+        "isCorrect": false
+      },
+      {
+        "text": "0.6 м/с",
+        "isCorrect": true
+      },
+      {
+        "text": "1.0 м/с",
+        "isCorrect": false
+      },
+      {
+        "text": "2.5 м/с",
+        "isCorrect": false
+      }
+    ],
+    "comment": "Ветер - поток воздуха, движущийся со скоростью свыше 0,6 м/с [1]."
+  },
+  {
+    "id": "43ac6a89-6eb6-4ff7-87f1-7e7f6d1de4bd",
+    "text": "в",
+    "answers": [
+      {
+        "text": "о",
+        "isCorrect": true
+      },
+      {
+        "text": "о",
+        "isCorrect": false
+      },
+      {
+        "text": "о",
+        "isCorrect": false
+      },
+      {
+        "text": "о",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "c419b96e-6613-4f25-ba22-3bc5df46a8ed",
+    "text": "Главным редактором какого популярного американского журнала мод является Анна Винтур?",
+    "answers": [
+      {
+        "text": "Vogue",
+        "isCorrect": true
+      },
+      {
+        "text": "Harper's Bazaar",
+        "isCorrect": false
+      },
+      {
+        "text": "GQ",
+        "isCorrect": false
+      },
+      {
+        "text": "L'Officiel",
+        "isCorrect": false
+      }
+    ],
+    "comment": "Vogue (Вог, фр. мода) — журнал о моде, издаваемый с 1892 года издательским домом Conde Nast Publications. Главред в России - Виктория Давыдова.; Harper’s Bazaar — Гленда Бэйли (первый американский журнал о моде); GQ (Gentlemen’s Quarterly) — Джим Нельсон; L'Officiel — старейший из ныне существующих французских изданий о моде. Появился в Париже 1921 году, в 1938 году стал первым журналом моды в мире, опубликовавшим цветные фотографии."
+  },
+  {
+    "id": "8209b2d7-be5e-452b-86fa-ebee053f1aa6",
+    "text": "Запрет на что долгое время существовал на острове Делос в Эгейском море?",
+    "answers": [
+      {
+        "text": "На разговоры",
+        "isCorrect": false
+      },
+      {
+        "text": "На смерть",
+        "isCorrect": true
+      },
+      {
+        "text": "На рождение детей",
+        "isCorrect": false
+      },
+      {
+        "text": "На сон",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": "388872b1-c718-45d0-87fd-a9400910e04d",
+    "text": "в",
+    "answers": [
+      {
+        "text": "о",
+        "isCorrect": true
+      },
+      {
+        "text": "о",
+        "isCorrect": false
+      },
+      {
+        "text": "о",
+        "isCorrect": false
+      },
+      {
+        "text": "о",
+        "isCorrect": false
+      }
+    ]
+  }
+]
