@@ -1,0 +1,264 @@
+:root {
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  background-color: #000008;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+@keyframes pulse {
+  0%, 100% {opacity: 1;}
+  50% {opacity: 0.6;}
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(51,102,204,0.5);
+  border-radius: 4px;
+}
+
+/*
+ * Сетки страниц.
+ * Ключевой момент: ставим min-width: 0 на колонки и карточки.
+ * По умолчанию grid-элементы имеют min-width: auto, и это значение
+ * мешает контенту сжиматься внутри. Из-за этого длинная строка или
+ * широкий саундборд расширяет колонку и весь экран уезжает вправо.
+ */
+
+.dir-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 16px;
+  padding: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.dir-grid > * {
+  min-width: 0;
+}
+
+.player-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 40px;
+}
+
+.player-grid > * {
+  min-width: 0;
+}
+
+.answers-grid {
+  width: 100%;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.answers-grid > * {
+  min-width: 0;
+}
+
+.stage-indicator {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  align-items: end;
+}
+
+.stage-indicator > * {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.stage-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.lifeline-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.host-meta {
+  display: flex;
+  gap: 14px;
+  color: #cbd5e1;
+  font-size: 13px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*
+ * Карточки. Без overflow: hidden и min-width: 0 длинный контент
+ * (например группа из 11 BGM кнопок саундборда) растягивает родителя
+ * и ломает раскладку.
+ */
+.card {
+  background: rgba(10, 18, 40, 0.75);
+  border: 1px solid rgba(51, 102, 204, 0.4);
+  border-radius: 10px;
+  padding: 14px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+/*
+ * Группа звуков внутри саундборда. На узких экранах горизонтально
+ * прокручивается, на широких переносится по строкам.
+ */
+.soundboard-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  min-width: 0;
+}
+
+/* ======================================================
+   Брейкпоинты
+   ====================================================== */
+
+/* Планшет в портрете и ниже: одна колонка вместо двух */
+@media (max-width: 1024px) {
+  .dir-grid {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 10px;
+    gap: 10px;
+  }
+  .player-grid {
+    grid-template-columns: minmax(0, 1fr);
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+/* Смартфон в любой ориентации */
+@media (max-width: 700px) {
+  .answers-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .dir-grid {
+    padding: 6px;
+    gap: 8px;
+  }
+  .player-grid {
+    padding-top: 50px;
+  }
+  .stage-indicator {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+  .card {
+    padding: 10px;
+  }
+  .stage-controls > button {
+    flex: 1 1 calc(50% - 4px);
+    min-width: 0;
+    padding: 8px 4px !important;
+    font-size: 11px !important;
+    letter-spacing: 0 !important;
+  }
+}
+
+/* Узкий портрет смартфона */
+@media (max-width: 480px) {
+  .dir-grid {
+    padding: 4px;
+    gap: 6px;
+  }
+  .stage-indicator {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 6px;
+  }
+  .stage-controls > button {
+    flex: 1 1 100%;
+    padding: 10px 6px !important;
+  }
+  .lifeline-row {
+    justify-content: center;
+  }
+  .lifeline-row > button {
+    flex: 1 1 calc(33% - 6px);
+    min-width: 0;
+    padding: 8px 4px !important;
+    font-size: 11px !important;
+  }
+  .answers-grid {
+    gap: 6px;
+  }
+  .card {
+    padding: 8px;
+    border-radius: 8px;
+  }
+  /*
+   * На узких экранах группы саундборда прокручиваются горизонтально.
+   * Это сохраняет визуальную структуру и не даёт кнопкам разбегаться
+   * по высоте.
+   */
+  .soundboard-group {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 4px;
+    scrollbar-width: thin;
+  }
+  .soundboard-group > button {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+}
+
+/* Совсем маленькие экраны */
+@media (max-width: 360px) {
+  .lifeline-row > button {
+    flex: 1 1 100%;
+  }
+}
+
+.center {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #cbd5e1;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+}
