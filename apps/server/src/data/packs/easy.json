@@ -1,0 +1,137 @@
+[
+  {
+    "text": "Сколько ног у паука?",
+    "answers": [
+      {"text": "6", "isCorrect": false},
+      {"text": "8", "isCorrect": true},
+      {"text": "10", "isCorrect": false},
+      {"text": "12", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Какого цвета спелый банан?",
+    "answers": [
+      {"text": "Красный", "isCorrect": false},
+      {"text": "Зелёный", "isCorrect": false},
+      {"text": "Жёлтый", "isCorrect": true},
+      {"text": "Синий", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Сколько дней в обычном году?",
+    "answers": [
+      {"text": "364", "isCorrect": false},
+      {"text": "365", "isCorrect": true},
+      {"text": "366", "isCorrect": false},
+      {"text": "360", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Столица Франции?",
+    "answers": [
+      {"text": "Лондон", "isCorrect": false},
+      {"text": "Берлин", "isCorrect": false},
+      {"text": "Париж", "isCorrect": true},
+      {"text": "Мадрид", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Какая планета ближе всего к Солнцу?",
+    "answers": [
+      {"text": "Венера", "isCorrect": false},
+      {"text": "Земля", "isCorrect": false},
+      {"text": "Марс", "isCorrect": false},
+      {"text": "Меркурий", "isCorrect": true}
+    ]
+  },
+  {
+    "text": "Кто написал роман Война и мир?",
+    "answers": [
+      {"text": "Достоевский", "isCorrect": false},
+      {"text": "Толстой", "isCorrect": true},
+      {"text": "Чехов", "isCorrect": false},
+      {"text": "Пушкин", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Сколько граней у обычного игрального кубика?",
+    "answers": [
+      {"text": "4", "isCorrect": false},
+      {"text": "6", "isCorrect": true},
+      {"text": "8", "isCorrect": false},
+      {"text": "12", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Самый большой океан Земли?",
+    "answers": [
+      {"text": "Атлантический", "isCorrect": false},
+      {"text": "Индийский", "isCorrect": false},
+      {"text": "Северный Ледовитый", "isCorrect": false},
+      {"text": "Тихий", "isCorrect": true}
+    ]
+  },
+  {
+    "text": "В каком году человек впервые высадился на Луну?",
+    "answers": [
+      {"text": "1959", "isCorrect": false},
+      {"text": "1965", "isCorrect": false},
+      {"text": "1969", "isCorrect": true},
+      {"text": "1972", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Химический символ золота?",
+    "answers": [
+      {"text": "Go", "isCorrect": false},
+      {"text": "Au", "isCorrect": true},
+      {"text": "Ag", "isCorrect": false},
+      {"text": "Gd", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Кто написал картину Мона Лиза?",
+    "answers": [
+      {"text": "Микеланджело", "isCorrect": false},
+      {"text": "Рафаэль", "isCorrect": false},
+      {"text": "Леонардо да Винчи", "isCorrect": true},
+      {"text": "Боттичелли", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "В каком году началась Первая мировая война?",
+    "answers": [
+      {"text": "1905", "isCorrect": false},
+      {"text": "1914", "isCorrect": true},
+      {"text": "1918", "isCorrect": false},
+      {"text": "1939", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Какой металл легче воды?",
+    "answers": [
+      {"text": "Алюминий", "isCorrect": false},
+      {"text": "Магний", "isCorrect": false},
+      {"text": "Натрий", "isCorrect": false},
+      {"text": "Литий", "isCorrect": true}
+    ]
+  },
+  {
+    "text": "Скорость света в вакууме примерно равна?",
+    "answers": [
+      {"text": "300 тыс км/с", "isCorrect": true},
+      {"text": "150 тыс км/с", "isCorrect": false},
+      {"text": "1 млн км/с", "isCorrect": false},
+      {"text": "30 тыс км/с", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Кто открыл закон всемирного тяготения?",
+    "answers": [
+      {"text": "Эйнштейн", "isCorrect": false},
+      {"text": "Галилей", "isCorrect": false},
+      {"text": "Ньютон", "isCorrect": true},
+      {"text": "Кеплер", "isCorrect": false}
+    ]
+  }
+]

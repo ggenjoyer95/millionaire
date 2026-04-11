@@ -1,0 +1,137 @@
+[
+  {
+    "text": "Какое животное является символом России?",
+    "answers": [
+      {"text": "Волк", "isCorrect": false},
+      {"text": "Медведь", "isCorrect": true},
+      {"text": "Лиса", "isCorrect": false},
+      {"text": "Рысь", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Сколько струн у обычной гитары?",
+    "answers": [
+      {"text": "4", "isCorrect": false},
+      {"text": "5", "isCorrect": false},
+      {"text": "6", "isCorrect": true},
+      {"text": "7", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Что измеряется в герцах?",
+    "answers": [
+      {"text": "Сила", "isCorrect": false},
+      {"text": "Частота", "isCorrect": true},
+      {"text": "Давление", "isCorrect": false},
+      {"text": "Скорость", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Кто написал картину Чёрный квадрат?",
+    "answers": [
+      {"text": "Кандинский", "isCorrect": false},
+      {"text": "Шагал", "isCorrect": false},
+      {"text": "Малевич", "isCorrect": true},
+      {"text": "Дали", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Какая страна подарила США статую Свободы?",
+    "answers": [
+      {"text": "Великобритания", "isCorrect": false},
+      {"text": "Германия", "isCorrect": false},
+      {"text": "Франция", "isCorrect": true},
+      {"text": "Италия", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Кто открыл периодическую таблицу элементов?",
+    "answers": [
+      {"text": "Ломоносов", "isCorrect": false},
+      {"text": "Менделеев", "isCorrect": true},
+      {"text": "Бутлеров", "isCorrect": false},
+      {"text": "Зелинский", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Какое государство является родиной олимпийских игр?",
+    "answers": [
+      {"text": "Рим", "isCorrect": false},
+      {"text": "Греция", "isCorrect": true},
+      {"text": "Египет", "isCorrect": false},
+      {"text": "Персия", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "В каком году была построена Эйфелева башня?",
+    "answers": [
+      {"text": "1855", "isCorrect": false},
+      {"text": "1889", "isCorrect": true},
+      {"text": "1900", "isCorrect": false},
+      {"text": "1921", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Какой инструмент использует Шерлок Холмс для игры?",
+    "answers": [
+      {"text": "Виолончель", "isCorrect": false},
+      {"text": "Скрипка", "isCorrect": true},
+      {"text": "Альт", "isCorrect": false},
+      {"text": "Контрабас", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Какой материк самый маленький по площади?",
+    "answers": [
+      {"text": "Европа", "isCorrect": false},
+      {"text": "Антарктида", "isCorrect": false},
+      {"text": "Австралия", "isCorrect": true},
+      {"text": "Южная Америка", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Кто написал роман Идиот?",
+    "answers": [
+      {"text": "Толстой", "isCorrect": false},
+      {"text": "Тургенев", "isCorrect": false},
+      {"text": "Достоевский", "isCorrect": true},
+      {"text": "Гоголь", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Что обозначает аббревиатура DNA в биологии?",
+    "answers": [
+      {"text": "Дезоксирибонуклеиновая кислота", "isCorrect": true},
+      {"text": "Динамическая нейронная активность", "isCorrect": false},
+      {"text": "Двойная нуклеотидная ассоциация", "isCorrect": false},
+      {"text": "Декстро-нуклеиновый агент", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Какая компания первой запустила человека в космос?",
+    "answers": [
+      {"text": "NASA", "isCorrect": false},
+      {"text": "ОКБ-1 Королёва", "isCorrect": true},
+      {"text": "ESA", "isCorrect": false},
+      {"text": "SpaceX", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "В каком году была изобретена World Wide Web?",
+    "answers": [
+      {"text": "1969", "isCorrect": false},
+      {"text": "1983", "isCorrect": false},
+      {"text": "1989", "isCorrect": true},
+      {"text": "1995", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Кто получил Нобелевскую премию по литературе в 1958 году но отказался от неё?",
+    "answers": [
+      {"text": "Шолохов", "isCorrect": false},
+      {"text": "Пастернак", "isCorrect": true},
+      {"text": "Солженицын", "isCorrect": false},
+      {"text": "Бунин", "isCorrect": false}
+    ]
+  }
+]

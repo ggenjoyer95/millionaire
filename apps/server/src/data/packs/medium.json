@@ -1,0 +1,137 @@
+[
+  {
+    "text": "Сколько букв в русском алфавите?",
+    "answers": [
+      {"text": "30", "isCorrect": false},
+      {"text": "32", "isCorrect": false},
+      {"text": "33", "isCorrect": true},
+      {"text": "34", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Какой газ необходим для дыхания?",
+    "answers": [
+      {"text": "Азот", "isCorrect": false},
+      {"text": "Углекислый газ", "isCorrect": false},
+      {"text": "Кислород", "isCorrect": true},
+      {"text": "Водород", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Самая длинная река России?",
+    "answers": [
+      {"text": "Волга", "isCorrect": false},
+      {"text": "Енисей", "isCorrect": false},
+      {"text": "Лена", "isCorrect": false},
+      {"text": "Обь с Иртышом", "isCorrect": true}
+    ]
+  },
+  {
+    "text": "Кто написал музыку к балету Лебединое озеро?",
+    "answers": [
+      {"text": "Глинка", "isCorrect": false},
+      {"text": "Чайковский", "isCorrect": true},
+      {"text": "Прокофьев", "isCorrect": false},
+      {"text": "Шостакович", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Какое море самое солёное в мире?",
+    "answers": [
+      {"text": "Чёрное", "isCorrect": false},
+      {"text": "Средиземное", "isCorrect": false},
+      {"text": "Красное", "isCorrect": false},
+      {"text": "Мёртвое", "isCorrect": true}
+    ]
+  },
+  {
+    "text": "Кто командовал русской армией в Бородинском сражении?",
+    "answers": [
+      {"text": "Суворов", "isCorrect": false},
+      {"text": "Кутузов", "isCorrect": true},
+      {"text": "Нахимов", "isCorrect": false},
+      {"text": "Ушаков", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "В каком году распался СССР?",
+    "answers": [
+      {"text": "1989", "isCorrect": false},
+      {"text": "1990", "isCorrect": false},
+      {"text": "1991", "isCorrect": true},
+      {"text": "1993", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Какой химический элемент обозначается Fe?",
+    "answers": [
+      {"text": "Фтор", "isCorrect": false},
+      {"text": "Железо", "isCorrect": true},
+      {"text": "Серебро", "isCorrect": false},
+      {"text": "Калий", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Кто был первой женщиной космонавтом?",
+    "answers": [
+      {"text": "Светлана Савицкая", "isCorrect": false},
+      {"text": "Валентина Терешкова", "isCorrect": true},
+      {"text": "Салли Райд", "isCorrect": false},
+      {"text": "Елена Серова", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Столица Австралии?",
+    "answers": [
+      {"text": "Сидней", "isCorrect": false},
+      {"text": "Мельбурн", "isCorrect": false},
+      {"text": "Канберра", "isCorrect": true},
+      {"text": "Перт", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Кто написал роман Преступление и наказание?",
+    "answers": [
+      {"text": "Тургенев", "isCorrect": false},
+      {"text": "Толстой", "isCorrect": false},
+      {"text": "Достоевский", "isCorrect": true},
+      {"text": "Гончаров", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Самая высокая гора в мире?",
+    "answers": [
+      {"text": "К2", "isCorrect": false},
+      {"text": "Эверест", "isCorrect": true},
+      {"text": "Канченджанга", "isCorrect": false},
+      {"text": "Аннапурна", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Какой философ известен фразой Я мыслю значит существую?",
+    "answers": [
+      {"text": "Сократ", "isCorrect": false},
+      {"text": "Платон", "isCorrect": false},
+      {"text": "Декарт", "isCorrect": true},
+      {"text": "Кант", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "В какой стране родился композитор Вольфганг Амадей Моцарт?",
+    "answers": [
+      {"text": "Германия", "isCorrect": false},
+      {"text": "Австрия", "isCorrect": true},
+      {"text": "Швейцария", "isCorrect": false},
+      {"text": "Италия", "isCorrect": false}
+    ]
+  },
+  {
+    "text": "Сколько симфоний написал Бетховен?",
+    "answers": [
+      {"text": "5", "isCorrect": false},
+      {"text": "7", "isCorrect": false},
+      {"text": "9", "isCorrect": true},
+      {"text": "12", "isCorrect": false}
+    ]
+  }
+]
