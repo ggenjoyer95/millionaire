@@ -1,0 +1,53 @@
+{
+  "name": "desktop",
+  "version": "2.1.0",
+  "private": true,
+  "description": "Electron обёртка для запуска игры без терминала",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "electron .",
+    "dev": "DEV_CLIENT_URL=http://localhost:3000 electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "@millu/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "typescript": "^5.9.3"
+  },
+  "build": {
+    "appId": "ru.hse.millionaire",
+    "productName": "Millionaire",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "src/preload.cjs",
+      "../client/dist/**/*",
+      "../server/dist/**/*",
+      "../server/src/data/**/*",
+      "../../packages/shared/**/*"
+    ],
+    "extraResources": [
+      {"from": "../server/src/data", "to": "data"}
+    ],
+    "win": {
+      "target": ["nsis", "portable"]
+    },
+    "mac": {
+      "target": ["dmg"],
+      "category": "public.app-category.games"
+    },
+    "linux": {
+      "target": ["AppImage"],
+      "category": "Game"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "e2e",
+  "version": "2.1.0",
+  "private": true,
+  "description": "End-to-end тесты на Playwright для трёх клиентов одновременно",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "install-browsers": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "typescript": "^5.9.3"
+  }
+}
